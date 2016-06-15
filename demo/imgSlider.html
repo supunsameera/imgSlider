@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+ <script src="../js/jQuery.imgSlider.js"></script>
+<style>
+
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<h1>
+			Image Slider
+		</h1>
+
+		<ul id="imgSlider">
+			<li><img src="img/15.jpg" alt=""></li>
+			<li><img src="img/18.jpg" alt=""></li>
+			<li><img src="img/19.jpg" alt=""></li>
+		</ul>
+	</div>
+
+
+
+	<script>
+		$(function(){
+			$('#imgSlider').imgSlider({
+				transition:'slide'
+
+			});
+		});
+	</script>
+</body>
+</html>
